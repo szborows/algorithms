@@ -13,3 +13,5 @@ add_executable("bst_from_array" ${BST_FROM_ARRAY_SOURCES})
 target_link_libraries("bst_from_array" gtest gtest_main)
 add_test("bst_from_array" "bst_from_array")
 
+add_subdirectory(potyczki-algorytmiczne/13)
+
